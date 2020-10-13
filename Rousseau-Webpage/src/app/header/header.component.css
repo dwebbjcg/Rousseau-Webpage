@@ -3,3 +3,7 @@
   background-size: cover;
   display: flex;
 }
+
+.directory-gallery {
+  display: flex;
+  justify-content: space-evenly;}
