@@ -1,12 +1,25 @@
-.about-us-container {
-  margin: 9rem;
+.about-us-blurb {
+  margin: 3rem;
   display: flex;
-  justify-content: right;
-  width: 40rem;
+  background-color: rgb(115, 129, 172);
+  /* justify-content: right; */
+  width: 25rem;
   text-align: right;
+  font-family: fantasy;
+  background-size: cover;
 }
 
 .about-us-pic {
   display: flex;
-  text-align: right;
+  width: 400px;
+}
+
+.about-header {
+
+  font-family: "Franklin Gothic Medium", "Arial", Arial, sans-serif;
+  text-decoration: underline;
+  margin-bottom: 40px;
+  line-height: 80px;
+  font-weight: 700 !important;
+  text-align: center;
 }

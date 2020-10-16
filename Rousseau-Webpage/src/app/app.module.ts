@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { DirectoryComponent } from './directory/directory.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { AudioPlayerComponent } from './audio-player/audio-player.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DirectoryComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    AudioPlayerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
