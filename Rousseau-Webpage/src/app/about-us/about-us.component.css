@@ -1,0 +1,12 @@
+.about-us-container {
+  margin: 9rem;
+  display: flex;
+  justify-content: right;
+  width: 40rem;
+  text-align: right;
+}
+
+.about-us-pic {
+  display: flex;
+  text-align: right;
+}
