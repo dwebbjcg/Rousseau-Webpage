@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { DirectoryComponent } from './directory/directory.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { AudioPlayerComponent } from './audio-player/audio-player.component';
-import { FooterComponent } from './footer/footer.component';
+import { AppComponent } from "./app.component";
+import { HeaderComponent } from "./header/header.component";
+import { DirectoryComponent } from "./directory/directory.component";
+import { AboutUsComponent } from "./about-us/about-us.component";
+import { AudioPlayerComponent } from "./audio-player/audio-player.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -15,12 +15,10 @@ import { FooterComponent } from './footer/footer.component';
     DirectoryComponent,
     AboutUsComponent,
     AudioPlayerComponent,
-    FooterComponent
+    FooterComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

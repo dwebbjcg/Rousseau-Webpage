@@ -1,6 +1,8 @@
 .about-container {
   display: flex;
   flex-direction: row;
+    background-color: rgb(115, 129, 172);
+
 }
 
 .about-us-blurb {
